@@ -4,7 +4,7 @@
             "id": 0,
             "name": "Ecommerce",
             "descripcion": "This is an Ecommerce that every user can buy or sell products. \n It was made with Django",
-            "thumbnail": "/thumbnails/Ecommerce.png",
+            "thumbnail": "MartinDac/thumbnails/Ecommerce.png",
             "link": "https://martindac.pythonanywhere.com/",
             "linkGitHub": "https://github.com/Martin-Dac/Ecommerce"
         }

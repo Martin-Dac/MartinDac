@@ -3,7 +3,7 @@ import { useContext } from "react";
 
 function Icon({icon}){
     return(
-        <img className="w-12 h-12 m-1" src={"/public/icons/" + icon + ".webp"} title={icon} alt={icon + "icon"}/>
+        <img className="w-12 h-12 m-1" src={"/icons/" + icon + ".webp"} title={icon} alt={icon + "icon"}/>
     )
 }
 
