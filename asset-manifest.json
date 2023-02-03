@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MartinDac/static/css/main.b9e1a369.css",
-    "main.js": "/MartinDac/static/js/main.e3b1c30e.js",
-    "static/js/787.49d708fe.chunk.js": "/MartinDac/static/js/787.49d708fe.chunk.js",
-    "static/media/background.gif": "/MartinDac/static/media/background.6b20de305f499c0a6f70.gif",
-    "index.html": "/MartinDac/index.html",
-    "main.b9e1a369.css.map": "/MartinDac/static/css/main.b9e1a369.css.map",
-    "main.e3b1c30e.js.map": "/MartinDac/static/js/main.e3b1c30e.js.map",
-    "787.49d708fe.chunk.js.map": "/MartinDac/static/js/787.49d708fe.chunk.js.map"
+    "main.css": "/static/css/main.09be3e17.css",
+    "main.js": "/static/js/main.b4feed17.js",
+    "static/js/787.49d708fe.chunk.js": "/static/js/787.49d708fe.chunk.js",
+    "static/media/background.gif": "/static/media/background.6b20de305f499c0a6f70.gif",
+    "index.html": "/index.html",
+    "main.09be3e17.css.map": "/static/css/main.09be3e17.css.map",
+    "main.b4feed17.js.map": "/static/js/main.b4feed17.js.map",
+    "787.49d708fe.chunk.js.map": "/static/js/787.49d708fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e1a369.css",
-    "static/js/main.e3b1c30e.js"
+    "static/css/main.09be3e17.css",
+    "static/js/main.b4feed17.js"
   ]
 }
