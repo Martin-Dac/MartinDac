@@ -18,7 +18,7 @@ export default function Home(){
             <p className="py-4 text-xl font-medium">I am {edad} years old student of system engineering, I really like works with teams, I am quiet person that want learn new technologies. </p>
             <p className="text-xl  font-medium">Some of my hobbies are playing videogames, watching anime, and go to gym.</p>
             <h3 className="text-2xl font-semibold pt-2">Technologies that I use:</h3>
-            <div className="flex">
+            <div className="flex flex-wrap">
                 <Icon icon={"html"}/>
                 <Icon icon={"css"}/>
                 <Icon icon={"tailwindcss"}/>
