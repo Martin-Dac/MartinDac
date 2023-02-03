@@ -24,7 +24,7 @@ function Projects() {
   const [Projects, setProjects] = useState("");
   
   useEffect(() => { 
-    fetch('/projects.json')
+    fetch('./projects.json')
     .then(response => response.json())
     .then((data) => setProjects(data) )
   }, [])
