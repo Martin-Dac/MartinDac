@@ -2,7 +2,7 @@
   "name": "miapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://martindac.com/",
+  "homepage": "http://martin-dac.github.io/MartinDac",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy":"npm run build && echo 'martindac.com' > ./build/CNAME",
     "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
