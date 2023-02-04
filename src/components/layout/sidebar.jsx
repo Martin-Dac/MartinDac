@@ -17,7 +17,7 @@ export default function SideBar() {
   return (
     <div>
       <h1 className="font-bold text-xl text-center">
-        About Me
+        👤About Me
       </h1>
       <AboutMe label={"Age"} value={edad}/>
       <AboutMe label={"Birthday"} value={ShortBirth}/>

@@ -6,7 +6,7 @@ export default function NavBar() {
   const normalLink = 'my-1 mx-3'
 
   return (
-    <div className="flex w-[90%] m-auto ">
+    <div className="flex w-[85%] m-auto ">
       <div className="flex rounded-xl w-full mt-8 bg-stone-800 border border-neutral-700">
         <NavLink to="/" className={({isActive}) => isActive ? activeLink:normalLink}>
           <button className="btn inline-flex">
