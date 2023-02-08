@@ -13,10 +13,10 @@ export default function Home(){
 
     return(
         <div className="text-left mt-4 ml-4">
-            <h1 className="text-4xl font-bold">Hi, I am <span className="text-sky-400">Martin.</span></h1>
-            <h2 className="inline-flex whitespace-nowrap text-3xl font-semibold overflow-hidden animate-writer">I am a <span className=" inline-flex text-amber-300 pl-2"> web developer.</span> 👨‍💻</h2>
-            <p className="py-4 text-xl font-medium">I am {edad} years old student of system engineering, I really like works with teams, I am quiet person that want learn new technologies. </p>
-            <p className="text-xl  font-medium">Some of my hobbies are playing videogames, watching anime, and go to gym.</p>
+            <h1 className="text-4xl font-bold lg:text-5xl 2xl:text-6xl">Hi, I am <span className="text-sky-400">Martin.</span></h1>
+            <h2 className="inline-flex whitespace-nowrap text-3xl font-semibold overflow-hidden animate-writer lg:text-4xl 2xl:text-5xl">I am a <span className=" inline-flex text-amber-300 pl-2"> web developer.</span> 👨‍💻</h2>
+            <p className="py-4 text-xl font-medium lg:text-2xl 2xl:text-3xl">I am {edad} years old student of system engineering, I really like works with teams, I am quiet person that want learn new technologies. </p>
+            <p className="text-xl  font-medium lg:text-2xl 2xl:text-3xl">Some of my hobbies are playing videogames, watching anime, and go to gym.</p>
             <h3 className="text-2xl font-semibold pt-2">Technologies that I use:</h3>
             <div className="flex flex-wrap">
                 <Icon icon={"html"}/>

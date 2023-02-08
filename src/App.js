@@ -1,5 +1,4 @@
 import React from "react";
-import NotFound from "./components/notFound";
 import NavBar from "./components/layout/navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
@@ -16,7 +15,6 @@ function App() {
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/projects" element={<Projects/>} />
-              <Route path="*" element={<NotFound/>} />
             </Routes>
           </Container>
         </BrowserRouter>
