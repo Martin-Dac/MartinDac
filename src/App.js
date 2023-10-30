@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./components/layout/navbar";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 import Container from "./components/layout/container";
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="text-white font-OpenSans">
       <div className="w-screen h-screen bg-cover bg-backgroundGif">
-        <BrowserRouter>
+        <HashRouter>
           <NavBar />
           <Container>
             <Routes>
@@ -17,7 +17,7 @@ function App() {
               <Route path="/projects" element={<Projects/>} />
             </Routes>
           </Container>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </div>
   );
