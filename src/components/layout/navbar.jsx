@@ -15,7 +15,7 @@ export default function NavBar() {
         </NavLink>
         <NavLink to="/projects" className={({isActive}) => isActive ? activeLink:normalLink}>
           <button className="btn inline-flex">
-            <BsFolder className="mt-1 mr-1"/> projects  test
+            <BsFolder className="mt-1 mr-1"/> projects
           </button>
         </NavLink>
         <a href="https://github.com/Martin-Dac" target="_blank" rel="noreferrer" className="ml-auto mr-2 my-auto text-2xl hover:scale-110"><BsGithub/></a>
