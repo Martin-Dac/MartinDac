@@ -7,5 +7,12 @@
             "thumbnail": "/thumbnails/Ecommerce.png",
             "link": "https://martindac.pythonanywhere.com/",
             "linkGitHub": "https://github.com/Martin-Dac/Ecommerce"
+        },
+        {
+            "id": 1,
+            "name": "App Full Stack",
+            "descripcion": "This is an App that I made for an interview, I use a dataset imdb of 100 movies and this app you can search for them. \n It was made with Django Rest and React. To deploy the app I use docker",
+            "thumbnail": "/thumbnails/FullStack.png",
+            "linkGitHub": "https://github.com/Martin-Dac/Proyecto-Full-stack"
         }
 ]
